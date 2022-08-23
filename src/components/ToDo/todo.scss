@@ -1,0 +1,80 @@
+#todo{
+    background-color: #D8A272;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.common{
+    background-color: #10303C;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 black    ;
+    h1{
+        text-align: center;
+        color: white;
+    }
+    .inputDiv{
+        input{
+            border: none;
+            outline: none;
+            width: 400px;
+            height: 30px;
+            background-color: black;
+            padding: 20px 20px;
+            border-radius: 10px;
+            color: white;
+            margin-right: 10px;
+            margin-left: 20px;
+        }
+        button{
+            margin-right: 10px;
+        }
+    }
+    .contentDiv{
+        background-color: black;
+        width: 500px;
+        height: 400px;
+        margin-left: 14px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        color: white;
+        .list{
+            background-color: black;
+        }
+    }
+ 
+}
+
+.paragraf{
+    padding: 10px;
+}
+
+.deleteButton{
+    height: 30px;
+    width: 42px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.finishButton{
+    height: 30px;
+    width: 42px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.toggle{
+    text-decoration: line-through;
+}
+
